@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 #include "file_watch.h"
 
 #include "util.h"

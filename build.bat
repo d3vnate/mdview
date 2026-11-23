@@ -1,4 +1,5 @@
 @echo off
+rem SPDX-License-Identifier: MIT
 setlocal enabledelayedexpansion
 
 rem Locate CMake: PATH, a standalone install, or the copy bundled with VS.

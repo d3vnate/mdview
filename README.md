@@ -99,4 +99,6 @@ Prefer native Windows? Open the project in VS Code **Windows mode** and use the 
 
 ## License
 
-MIT. md4c is MIT; see `third_party/md4c/LICENSE.md`.
+**MIT** — copyright (c) 2026 mdview contributors. See [`LICENSE`](LICENSE).
+
+Source files carry `SPDX-License-Identifier: MIT`, and the executable embeds the same notice. Markdown parsing by [md4c](https://github.com/mity/md4c), also MIT; see `third_party/md4c/LICENSE.md`.

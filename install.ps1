@@ -1,4 +1,5 @@
 #Requires -Version 5.1
+# SPDX-License-Identifier: MIT
 # Registers Markdown Viewer as a handler for Markdown files under HKCU.
 # No administrator rights are required.
 $ErrorActionPreference = 'Stop'

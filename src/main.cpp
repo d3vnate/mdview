@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 #include <windows.h>
 #include <commdlg.h>
 #include <objbase.h>

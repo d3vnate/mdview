@@ -1,4 +1,5 @@
 #Requires -Version 5.1
+# SPDX-License-Identifier: MIT
 # Removes the per-user file associations created by install.ps1.
 $ErrorActionPreference = 'Stop'
 

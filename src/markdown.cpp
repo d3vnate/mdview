@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 #include "markdown.h"
 
 #include "md4c-html.h"

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
 # Builds mdview on Windows from a WSL terminal.
 #
 # The project needs MSVC + the Windows SDK, so it cannot be compiled inside

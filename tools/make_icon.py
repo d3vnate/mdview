@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Generates app.ico (a 256x256 PNG-compressed icon) without external tools."""
 
 import os

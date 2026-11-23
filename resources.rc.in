@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 #include <windows.h>
 
 101 RCDATA "@MDVIEW_WEB_INDEX@"
@@ -7,3 +8,32 @@
 1 ICON "@MDVIEW_ICON@"
 
 1 RT_MANIFEST "@MDVIEW_MANIFEST@"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "mdview contributors"
+            VALUE "FileDescription", "Markdown Viewer"
+            VALUE "FileVersion", "1.0.1.0"
+            VALUE "InternalName", "mdview"
+            VALUE "LegalCopyright", "Copyright (c) 2026 mdview contributors. MIT License."
+            VALUE "OriginalFilename", "mdview.exe"
+            VALUE "ProductName", "mdview"
+            VALUE "ProductVersion", "1.0.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

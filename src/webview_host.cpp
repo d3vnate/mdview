@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 #include "webview_host.h"
 
 #include "app_messages.h"
