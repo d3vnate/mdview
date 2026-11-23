@@ -10,7 +10,7 @@ A dead-simple Markdown viewer for Windows 11 dev machines. Drop a `.md` on it, o
 
 Grab the latest release: **https://github.com/d3vnate/mdview/releases/latest**
 
-Unzip `mdview-v1.0.0-win-x64.zip`, then run `mdview.exe`. It is portable — no installer, no admin rights, no background services.
+Unzip `mdview-v1.0.1-win-x64.zip`, then run `mdview.exe`. It is portable — no installer, no admin rights, no background services.
 
 **Requirements:** Windows 11 x64. WebView2 Runtime is included with Windows 11. No VC++ redistributable is needed.
 
@@ -72,7 +72,7 @@ This registers `.md`, `.markdown`, `.mdown`, and `.mkd` per-user — no admin ri
 ### Verify a download
 
 ```powershell
-Get-FileHash .\mdview-v1.0.0-win-x64.zip -Algorithm SHA256
+Get-FileHash .\mdview-v1.0.1-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the output with `SHA256SUMS.txt` from the same release.
