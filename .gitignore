@@ -1,0 +1,5 @@
+/build/
+*.nupkg
+.vs/
+__pycache__/
+/nul
